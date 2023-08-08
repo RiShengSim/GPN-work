@@ -19,6 +19,15 @@ if(hascontrol)
 	}
 if(!hascontrol) 
 {
+	if (place_meeting(x , y + vsp , oWall))
+	{
+		while (!place_meeting(x,y+sign(vsp),oWall))
+		{
+			y += sign(vsp);
+		}
+		vsp = 0;
+	}
+	y = y + vsp;
 	if(death == false)
 	{	
 		hsp = 0;

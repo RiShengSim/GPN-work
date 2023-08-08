@@ -12,7 +12,7 @@ if (mouse_check_button_released(mb_right)) && (firingdelay < 0) && (place_meetin
 {
 	audio_play_sound(BowReleased,5,false);
 	
-		firingdelay = 5
+		firingdelay = 5;
 	  with (instance_create_layer(x,y - 15,"Arrows",oArrow))
 	  {
 		  speed = 25;

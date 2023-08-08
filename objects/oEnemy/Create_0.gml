@@ -9,6 +9,8 @@ hp = 4;
 flash = 0;
 hitfrom = 0;
 
+timestop = false;
+timecountdown = 0;
 
 
 

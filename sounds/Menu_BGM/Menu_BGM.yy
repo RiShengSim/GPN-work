@@ -8,9 +8,9 @@
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 0,
+  "compression": 1,
   "conversionMode": 0,
-  "duration": 1622.88,
+  "duration": 102.624,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Menu_BGM.mp3",
   "type": 0,
-  "volume": 0.59,
+  "volume": 0.8,
 }

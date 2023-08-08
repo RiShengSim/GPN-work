@@ -1,7 +1,11 @@
 /// @description Control Menu
 
 menu_x += (menu_x_target - menu_x) / menu_speed;
-
+if (playmusic)
+{
+	audio_play_sound(Menu_BGM, 5, false);
+	playmusic = false;
+}
 
 //Keyboard Controls
 if (menu_control)
@@ -22,6 +26,7 @@ if (menu_control)
 		menu_x_target = gui_width + 200;
 		menu_committed = menu_cursor;
 		menu_control = false;
+		audio_stop_all();
 	}
 }
 

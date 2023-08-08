@@ -47,6 +47,7 @@
     {"id":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},},
     {"id":{"name":"sPlayer_archerR","path":"sprites/sPlayer_archerR/sPlayer_archerR.yy",},},
     {"id":{"name":"sRock","path":"sprites/sRock/sRock.yy",},},
+    {"id":{"name":"Enemy_Movement","path":"scripts/Enemy_Movement/Enemy_Movement.yy",},},
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},},
     {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},},
     {"id":{"name":"sBandit_lightJ","path":"sprites/sBandit_lightJ/sBandit_lightJ.yy",},},

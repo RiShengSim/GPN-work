@@ -27,6 +27,7 @@
     {"name":"sDirt","order":27,"path":"sprites/sDirt/sDirt.yy",},
     {"name":"sPlayer_archerR","order":6,"path":"sprites/sPlayer_archerR/sPlayer_archerR.yy",},
     {"name":"sRock","order":25,"path":"sprites/sRock/sRock.yy",},
+    {"name":"Enemy_Movement","order":5,"path":"scripts/Enemy_Movement/Enemy_Movement.yy",},
     {"name":"oLevelEnd","order":7,"path":"objects/oLevelEnd/oLevelEnd.yy",},
     {"name":"sBandit_lightJ","order":17,"path":"sprites/sBandit_lightJ/sBandit_lightJ.yy",},
     {"name":"sBandit_light","order":16,"path":"sprites/sBandit_light/sBandit_light.yy",},
