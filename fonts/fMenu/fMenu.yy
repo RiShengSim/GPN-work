@@ -678,8 +678,8 @@
   "lineHeight": 36,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menu Object",
+    "path": "folders/Objects/Menu Object.yy",
   },
   "pointRounding": 0,
   "ranges": [
