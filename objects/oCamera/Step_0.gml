@@ -23,11 +23,3 @@ if (layer_exists("Mountains"))
 {
 	layer_x("Mountains",x);	
 }
-if (layer_exists("Clouds"))
-{
-	layer_x("Clouds",x);	
-}
-if (layer_exists("BrownCloud"))
-{
-	layer_x("BrownCLoud",x);	
-}

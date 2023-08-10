@@ -5,19 +5,25 @@ with(oEnemy)
 {
 	hsp = 0;
 	timestop = true;
-	timecountdown = 300;
 }
 with(oEnemy_Wizard)
 {
 	hsp = 0;
 	timestop = true;
-	timecountdown = 300;
 }
 with(oEnemySpherehitbox)
 {
 	timestop = true;
 }
-
+with(oBlade)
+{
+	timestop = true;
+}
+with(oTransition)
+{
+	timestop = true;
+	timecountdown = 300;
+}
 instance_destroy();
 
 

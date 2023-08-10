@@ -5,7 +5,7 @@ grv = 0.3; //Gravity
 walksp = 3; //Walk Speed
 hsp = walksp;
 
-hp = 4;
+hp = 8;
 flash = 0;
 hitfrom = 0;
 

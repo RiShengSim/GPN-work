@@ -49,7 +49,35 @@ if (mode != TRANS_MODE.OFF)
 	}
 }
 
-
-
+if (timestop = true)
+{
+	timecountdown --;
+	if (timecountdown == 0)
+	{
+		timestop = false;
+		with(oSphere)
+		{
+			timestop = false;	
+		}
+		with(oEnemySpherehitbox)
+		{
+			timestop = false;	
+		}
+		with(oBlade)
+		{
+			timestop = false;
+		}
+		with(oEnemy_Wizard)
+		{
+			timestop = false;
+		}
+		with(oEnemy)
+		{
+			hsp = walksp;
+			timestop = false;
+		}
+		
+	}
+}
 
 

@@ -19,6 +19,7 @@ if(hascontrol)
 	}
 if(!hascontrol) 
 {
+	
 	vsp = 1;
 	if (place_meeting(x , y + vsp , oWall))
 	{
@@ -31,6 +32,7 @@ if(!hascontrol)
 	y = y + vsp;
 	if(death == false)
 	{	
+		audio_play_sound(Player_death,3,false);
 		hsp = 0;
 		image_speed	= 1;
 		sprite_index = sPlayer_archerD;

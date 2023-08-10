@@ -1,7 +1,8 @@
 vsp = vsp + grv;
 //Jumps
 if (!timestop)
-	{
+{
+	image_speed = 1;
 	Enemy_movement();
 	//Animation
 

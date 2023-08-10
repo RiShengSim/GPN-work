@@ -1,9 +1,10 @@
-vsp = vsp + grv;
+
 //Jumps
 
 
 if (!timestop)
-	{
+{
+	image_speed = 1;
 	if (place_meeting(x+hsp,y,oWall))
 	{
 		while (!place_meeting(x+sign(hsp),y,oWall))
@@ -24,6 +25,7 @@ if (!timestop)
 		vsp = 0;
 	}
 	y = y + vsp;
+	vsp = vsp + grv;
 	//Animation
 	if (hsp != 0)
 	{
@@ -79,6 +81,10 @@ else {
 		with(oEnemySpherehitbox)
 		{
 			timestop = false;	
+		}
+		with(oBlade)
+		{
+			timestop = false;
 		}
 		
 	}

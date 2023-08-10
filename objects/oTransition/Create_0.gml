@@ -20,3 +20,7 @@ percent = 1;
 target = room;
 black_screen = 1.1;
 global.currentRoom = noone;
+
+
+timestop = false;
+timecountdown = 0;
