@@ -40,17 +40,8 @@ if (!timestop)
 		else
 		{
 			image_speed = 1;
-	
-			if (hsp == 0)
-			{
-				sprite_index = sWizard_wandering;
-		
-			}
-			else
-			{
-	
-				sprite_index = sWizard_WanderingW;
-			}
+			sprite_index = sWizard_WanderingW;
+			
 	
 		}
 	}

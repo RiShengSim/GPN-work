@@ -1,9 +1,10 @@
-vsp = vsp + grv;
+
 //Jumps
 if (!timestop)
 {
 	image_speed = 1;
 	Enemy_movement();
+	vsp = vsp + grv;
 	//Animation
 
 	if (!place_meeting(x,y+1,oWall))

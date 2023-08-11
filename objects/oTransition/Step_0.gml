@@ -22,6 +22,7 @@ if (mode != TRANS_MODE.OFF)
 			
 			case TRANS_MODE.NEXT:
 			{
+				
 				mode = TRANS_MODE.INTRO;
 				room_goto_next();
 				global.currentRoom = room_get_name(room);
@@ -36,6 +37,7 @@ if (mode != TRANS_MODE.OFF)
 				{
 					global.currentRoom = room_get_name(target);
 					SaveGame();
+					break;
 				}
 				break;
 			}
@@ -55,11 +57,11 @@ if (timestop = true)
 	if (timecountdown == 0)
 	{
 		timestop = false;
-		with(oSphere)
+		with(oEnemySpherehitbox)
 		{
 			timestop = false;	
 		}
-		with(oEnemySpherehitbox)
+		with(oEnemyFirehitbox)
 		{
 			timestop = false;	
 		}
@@ -68,6 +70,14 @@ if (timestop = true)
 			timestop = false;
 		}
 		with(oEnemy_Wizard)
+		{
+			timestop = false;
+		}
+		with(oFire_Wizard)
+		{
+			timestop = false;
+		}
+		with(oEnemyFirehitbox)
 		{
 			timestop = false;
 		}

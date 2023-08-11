@@ -20,7 +20,7 @@ if(hascontrol)
 if(!hascontrol) 
 {
 	
-	vsp = 1;
+	vsp = 3;
 	if (place_meeting(x , y + vsp , oWall))
 	{
 		while (!place_meeting(x,y+sign(vsp),oWall))
