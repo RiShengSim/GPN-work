@@ -14,7 +14,7 @@ if (instance_exists(oPlayer))
 		if (countdown <= 0) && (!timestop)
 		{
 			countdown = countdownrate;
-			with (instance_create_layer(x,y - 15,"FireBall",oFireBall))
+			with (instance_create_layer(x,y - 15,"FireBall",oSphere22))
 			{
 				speed = 10;
 				direction = other.image_angle + random_range (-2,2);

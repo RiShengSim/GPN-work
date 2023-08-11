@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 217.104,
+  "duration": 2130.648,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "Tutorial_1",
+  "soundFile": "Tutorial_1.mp3",
   "type": 0,
-  "volume": 0.17,
+  "volume": 0.3,
 }

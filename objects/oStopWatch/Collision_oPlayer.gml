@@ -38,7 +38,7 @@ with(oSphere)
 {
 	instance_destroy();	
 }
-with(oFireBall)
+with(oSphere22)
 {
 	instance_destroy();	
 }
