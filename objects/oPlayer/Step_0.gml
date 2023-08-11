@@ -7,7 +7,7 @@ if(hascontrol)
 		shift_key = keyboard_check(vk_shift);
 		key_jump = keyboard_check_pressed(vk_space);
 		key_jump_held = keyboard_check(vk_space);
-		key_attack = mouse_check_button(mb_right);
+		key_attack = mouse_check_button(mb_left);
 
 		PlayerState_Free()
 	}

@@ -8,7 +8,7 @@ y = oPlayer.y+10;
 image_angle = point_direction (x,y,mouse_x,mouse_y);
 
 firingdelay = firingdelay - 1;
-if (mouse_check_button_released(mb_right)) && (firingdelay < 0) && (place_meeting(x,y+1,oWall))
+if (mouse_check_button_released(mb_left)) && (firingdelay < 0) && (place_meeting(x,y+1,oWall))
 {
 	audio_play_sound(BowReleased,5,false);
 	
