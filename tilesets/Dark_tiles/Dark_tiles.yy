@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "Sprite46",
-    "path": "sprites/Sprite46/Sprite46.yy",
+    "name": "sUnderGround_Tiles",
+    "path": "sprites/sUnderGround_Tiles/sUnderGround_Tiles.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
