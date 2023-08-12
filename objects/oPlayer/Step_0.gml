@@ -5,8 +5,8 @@ if(hascontrol)
 		key_left = keyboard_check(vk_left) || keyboard_check(ord("A")); //Check if the player is pressing the arrow key basically a boon yes or no
 		key_right = keyboard_check(vk_right)|| keyboard_check(ord("D"));
 		shift_key = keyboard_check(vk_shift);
-		key_jump = keyboard_check_pressed(vk_space);
-		key_jump_held = keyboard_check(vk_space);
+		key_jump = keyboard_check_pressed(vk_space)||keyboard_check_pressed((ord("W")));
+		key_jump_held = keyboard_check(vk_space)||keyboard_check(ord("W"));
 		key_attack = mouse_check_button(mb_left);
 
 		PlayerState_Free()

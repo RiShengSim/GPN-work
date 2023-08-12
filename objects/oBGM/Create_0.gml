@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 audio_stop_all();
-if (room == Room1) || (room == Room2)
+if (room == Room1) || (room == Room2) || (room == BossRoom)
 {
 	audio_play_sound(Hollow,5,true);	
 }
