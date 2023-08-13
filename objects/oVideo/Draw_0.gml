@@ -7,5 +7,5 @@ if (_videoStatus == 0)
 }
 else if (timer == 0)
 {
-	SlideTransition(TRANS_MODE.NEXT);
+	SlideTransition(TRANS_MODE.GOTO,Tutorial);
 }
